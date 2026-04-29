@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título da página (aparece na aba do navegador) -->
+    <title>Quiz - Estruturas de Dados</title>
+
+    <!-- Importa o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Container principal do sistema -->
+<div class="box">
+
+    <!-- Título do quiz -->
+    <h1>🎮 Quiz de Estruturas de Dados</h1>
+
+    <!-- Campo para o usuário digitar o nome -->
+    <input id="nome" placeholder="Digite seu nome">
+
+    <!-- Botão para iniciar o quiz -->
+    <button id="btnIniciar" onclick="iniciar()">Iniciar</button>
+
+    <!-- Mostra o tempo restante da pergunta -->
+    <p id="tempo"></p>
+
+    <!-- Exibe a pergunta atual -->
+    <p id="pergunta"></p>
+
+    <!-- Área onde os botões de resposta são criados dinamicamente -->
+    <div id="opcoes"></div>
+
+    <!-- Mostra se o usuário acertou ou errou -->
+    <p id="feedback"></p>
+
+    <!-- Mostra a pontuação final -->
+    <p id="pontuacao"></p>
+
+    <!-- Título do ranking -->
+    <h3>🏆 Ranking</h3>
+
+    <!-- Lista onde o ranking será exibido -->
+    <ul id="ranking"></ul>
+
+</div>
+
+<!-- Importa o JavaScript (fica no final para garantir carregamento do HTML) -->
+<script src="script.js"></script>
+
+</body>
+</html>

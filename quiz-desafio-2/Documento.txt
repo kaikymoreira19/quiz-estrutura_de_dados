@@ -1,0 +1,48 @@
+
+
+ 2. OBJETIVO (30s)
+“O objetivo do projeto foi aplicar na prática conceitos de estruturas de dados, como listas, filas, 
+pilhas e dicionários, através de um sistema interativo.”
+
+ 3. COMO FUNCIONA (1 min)
+“O sistema funciona como um quiz onde o usuário:
+Digita o nome
+Responde perguntas de múltipla escolha
+Recebe feedback imediato
+Tem tempo limite por pergunta
+E no final vê a pontuação e o ranking”
+
+ 4. TECNOLOGIAS (30s)
+“O sistema foi desenvolvido utilizando:
+HTML para estrutura
+CSS para o design
+JavaScript para a lógica”
+
+ 5. ESTRUTURAS DE DADOS (ESSA É A PARTE MAIS IMPORTANTE) (1–2 min)
+“Foram utilizadas as seguintes estruturas de dados:
+Lista → para armazenar as perguntas
+Fila → para controlar a ordem das perguntas (FIFO)
+Pilha → para armazenar o histórico (LIFO)
+Dicionário → para associar perguntas às respostas”
+ Se quiser simplificar:
+“A fila garante a ordem, a pilha guarda o histórico, e o dicionário conecta pergunta com resposta.”
+
+ 6. FUNCIONALIDADES EXTRAS (DIFERENCIAL) (1 min)
+“Além do básico, implementei:
+Tempo de 15 segundos por pergunta
+Ranking com armazenamento no navegador
+Limitação do ranking aos 5 melhores
+Destaque para o primeiro colocado”
+
+7. DEMONSTRAÇÃO 
+ Aqui você mostra o sistema rodando:
+Fala enquanto usa:
+“Agora vou demonstrar o funcionamento do sistema.”
+Digita nome
+Clica em iniciar
+Responde 1 ou 2 perguntas
+Mostra ranking
+
+8. FINALIZAÇÃO
+“Esse projeto permitiu aplicar na prática conceitos de estruturas de dados e 
+melhorar minhas habilidades em programação e desenvolvimento de sistemas interativos.”

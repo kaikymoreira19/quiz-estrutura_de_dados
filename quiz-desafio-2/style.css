@@ -1,0 +1,48 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial; /* Define a fonte */
+    background: #0f172a; /* Cor de fundo (escuro) */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 40px; /* Espaçamento interno */
+}
+
+/* Caixa principal do quiz */
+.box {
+    background: #1e293b; /* Fundo da caixa */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 500px; /* Largura máxima */
+    margin: auto; /* Centraliza na tela */
+}
+
+/* Estilo padrão dos botões */
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 10px; /* Espaço entre botões */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de clique */
+    background: #3b82f6; /* Cor azul */
+    color: white; /* Texto branco */
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background: #2563eb; /* Azul mais escuro */
+}
+
+/* Campo de entrada (nome) */
+input {
+    padding: 10px; /* Espaçamento interno */
+    width: 80%; /* Largura */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: none; /* Remove borda */
+    margin-bottom: 10px; /* Espaço abaixo */
+}
+
+/* Lista do ranking */
+ul {
+    list-style: none; /* Remove marcadores (bolinhas) */
+    padding: 0; /* Remove espaçamento padrão */
+}
